@@ -439,6 +439,7 @@ public class Helper {
 
         File inputFolder = new File(inputFolderName);
         File[] files = inputFolder.listFiles();
+        Arrays.sort(files);
         for (int i = 0; i < files.length; i++) {
             Cloudlet cloudlet = null;
             try {
