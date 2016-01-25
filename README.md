@@ -75,7 +75,7 @@ Let consider the VMs run replicated applications. To make them fault-tolerant to
 ### Balance the load
 
 1. Develop a scheduler that performs load balancing using a `next fit algorithm` (flag `nextFit`). You should observe fewer penalties with regards to the naive scheduler.
-1. Develop another algorithm based on a `worst fit algorithm` (`worstFit` flag) that balance with regards to both RAM and mips. Justify  the method you choosed to consider the two dimensions (it is ok to compare against internal tries).
+1. Develop another algorithm based on a `worst fit algorithm` (`worstFit` flag) that balance with regards to both RAM and mips. Justify  the method you choosed to consider the two dimensions (it is ok to compare against internal tries) and an evaluation metric.
 1. Which algorithms performs the best in terms of reducing the SLA violation. Why ?
 1. What is the theoretical complexity of each of the implemented scheduler ?
 
